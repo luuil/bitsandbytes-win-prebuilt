@@ -13,3 +13,10 @@ in ./cextension.py:
 change ct.cdll.LoadLibrary(binary_path) to ct.cdll.LoadLibrary(str(binary_path))
 ```
 
+# Step
+
+* `pip install bitsandbytes`
+* move `dll` files to `site-packages\bitsandbytes`
+* hardcoded patch as above
+
+ref: https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1301544176
